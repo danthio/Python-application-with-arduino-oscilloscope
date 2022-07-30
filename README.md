@@ -1,6 +1,6 @@
 This is a desktop application using tkinter that works with arduino hardware as an oscilloscope.
 
-~Ensure to have installed pyserial~ 'pip install pyserial'
+~Ensure to have installed pyserial
 
 ~Upload the arduino code to the hardware. It reads the analog pin, A0.
 
