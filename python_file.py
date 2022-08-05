@@ -97,20 +97,16 @@ def getval():
 amp=0
 root=t.Tk()
 root.geometry("820x568+0+0")
-root.title("HSCOPE")
+root.title("oscilloscope")
 root.resizable(0,0)
 root["bg"]="#d1ffd5"
 
 can=t.Canvas(bg="#f3f3f3",width=820,height=610-37,relief="flat",highlightthickness=0,border=0)
 can.place(in_=root,x=0,y=0)
 
-
 can.create_rectangle(1,1,818,545,fill="#000000",outline="#f3f3f3")
-can.create_text(3,595-39,text="hepta ©",anchor="w",fill="#000000",font=("FreeMono","13","bold"))
-
 
 mess=t.Canvas(bg="#000000",width=300,height=150,relief="flat",highlightthickness=0,border=0)
-
 
 mess.create_oval(0,0,10,10,fill="#f3f3f3",outline="#f3f3f3")
 mess.create_oval(0,139,10,149,fill="#f3f3f3",outline="#f3f3f3")
